@@ -1,0 +1,23 @@
+[package]
+name = "wasmer/wcgi-rust-template"
+version = "0.1.17"
+description = "A template for WCGI applications"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/wasmerio/wcgi-rust-template"
+
+[[module]]
+name = "server"
+source = "target/wasm32-wasi/release/wcgi-rust-template.wasm"
+abi = "wasi"
+
+[[command]]
+name = "server"
+module = "server"
+runner = "https://webc.org/runner/wcgi"
+
+[command.annotations.wasi]
+env = ["SCRIPT_NAME=rust_wcgi"]
+
+[command.annotations.wcgi]
+dialect = "rfc-3875"

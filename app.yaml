@@ -1,0 +1,4 @@
+---
+kind: wasmer.io/App.v0
+name: wcgi-rust-starter
+package: wasmer/wcgi-rust-template@0.1.17
