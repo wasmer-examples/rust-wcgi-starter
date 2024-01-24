@@ -20,7 +20,7 @@ build  deps  examples  incremental  wcgi-rust-template.d  wcgi-rust-template.was
 
 You can also use `wasmer run` to test things locally.
 
-```console
+```bash
 $ wasmer run . --net
 INFO run: wasmer_wasix::runners::wcgi::runner: Starting the server address=127.0.0.1:8000 command_name="server"
 ```
@@ -33,9 +33,10 @@ INFO run: wasmer_wasix::runners::wcgi::runner: Starting the server address=127.0
 ## Deploy on Wasmer Edge
 
 The easiest way to deploy your WCGI Rust app is to use the [Wasmer Edge](https://wasmer.io/products/edge).
-You can see a live demo of this website deployed on Wasmer Edge: http://wcgi-rust-starter.wasmer.app/
 
-```console
+Live example: http://wcgi-rust-starter.wasmer.app/
+
+```bash
 wasmer deploy
 ```
 
