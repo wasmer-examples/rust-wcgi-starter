@@ -3,7 +3,7 @@ published to the Wasmer Registry.
 
 ## Getting Started
 
-Next, make sure you have Rust and its `wasm32-wasi` target installed.
+First, make sure you have Rust and its `wasm32-wasi` target installed.
 
 ```console
 rustup target add wasm32-wasi
