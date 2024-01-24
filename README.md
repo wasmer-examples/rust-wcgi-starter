@@ -18,7 +18,7 @@ $ ls target/wasm32-wasi/release
 build  deps  examples  incremental  wcgi-rust-template.d  wcgi-rust-template.wasm
 ```
 
-You can also use `wasmer run` to test things locally.
+You can also use `wasmer run` to run the WCGI server locally.
 
 ```bash
 $ wasmer run . --net
