@@ -25,16 +25,14 @@ $ wasmer run . --net
 INFO run: wasmer_wasix::runners::wcgi::runner: Starting the server address=127.0.0.1:8000 command_name="server"
 ```
 
-
 > [!NOTE]
-> You will need to have Wasmer installed (check out [the docs to install the Wasmer CLI](https://docs.wasmer.io/install)!). 
-> The `--net` flag is required to enable networking support in Wasmer.
+> You can also run `wasmer run wasmer-examples/rust-wcgi-starter --net`to run the remote package
 
 ## Deploy on Wasmer Edge
 
 The easiest way to deploy your WCGI Rust app is to use the [Wasmer Edge](https://wasmer.io/products/edge).
 
-Live example: http://wcgi-rust-starter.wasmer.app/
+Live example: https://wcgi-rust-starter.wasmer.app/
 
 ```bash
 wasmer deploy

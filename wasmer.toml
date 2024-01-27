@@ -1,14 +1,14 @@
 [package]
-name = "wasmer/wcgi-rust-template"
-version = "0.1.17"
-description = "A template for WCGI applications"
+name = "wasmer-examples/rust-wcgi-starter"
+version = "0.2.0"
+description = "A template for Rust WCGI applications"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/wasmerio/wcgi-rust-template"
+repository = "https://github.com/wasmer-examples/rust-wcgi-starter"
 
 [[module]]
 name = "server"
-source = "target/wasm32-wasi/release/wcgi-rust-template.wasm"
+source = "target/wasm32-wasi/release/rust-wcgi-starter.wasm"
 abi = "wasi"
 
 [[command]]

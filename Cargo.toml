@@ -1,11 +1,11 @@
 [package]
-name = "wcgi-rust-template"
+name = "rust-wcgi-starter"
 authors = ["Wasmer Engineering Team <engineering@wasmer.io>"]
 edition = "2021"
-homepage = "https://github.com/wasmerio/wcgi-rust-template.git"
+homepage = "https://wasmer.io/wasmer-examples/rust-wcgi-starter"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/wasmerio/wcgi-rust-template.git"
+repository = "https://github.com/wasmer-examples/rust-wcgi-starter"
 rust-version = "1.64.0"
 version = "0.1.0"
 
