@@ -69,5 +69,5 @@ jobs:
         with:
           command: build
           args: --workspace --verbose --locked --target ${{ env.TARGET }} --release
-      - name: Deploy app to wasmer.io
-        run: wasmer deploy --registry="https://registry.wasmer.io/graphql" --token=${{ secrets.WASMER_CIUSER_PROD_TOKEN }} --publish-package --non-interactive --no-wait --no-persist-id
+      - name: Deploy app to Wasmer Edge
+        run: wasmer deploy --token=${{ secrets.WASMER_CIUSER_PROD_TOKEN }} --publish-package --non-interactive --no-wait --no-persist-id

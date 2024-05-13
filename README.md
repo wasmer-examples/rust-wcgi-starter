@@ -25,8 +25,6 @@ $ wasmer run . --net
 INFO run: wasmer_wasix::runners::wcgi::runner: Starting the server address=127.0.0.1:8000 command_name="server"
 ```
 
-> [!NOTE]
-> You can also run `wasmer run wasmer-examples/rust-wcgi-starter --net`to run the remote package
 
 ## Deploy on Wasmer Edge
 
@@ -37,10 +35,6 @@ Live example: https://wcgi-rust-starter.wasmer.app/
 ```bash
 wasmer deploy
 ```
-
-> [!NOTE]
-> You will need to change the namespace in `wasmer.toml` to your own namespace and app name in `app.yaml` to your own app name.
-
 
 
 [api-docs]: https://wasmerio.github.io/wcgi-rust-template
