@@ -21,7 +21,7 @@ build  deps  examples  incremental  wcgi-rust-template.d  wcgi-rust-template.was
 You can also use `wasmer run` to run the WCGI server locally.
 
 ```bash
-$ wasmer run . --net
+$ wasmer run .
 INFO run: wasmer_wasix::runners::wcgi::runner: Starting the server address=127.0.0.1:8000 command_name="server"
 ```
 
