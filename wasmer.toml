@@ -1,6 +1,6 @@
 [[module]]
 name = "server"
-source = "target/wasm32-wasi/release/rust-wcgi-starter.wasm"
+source = "target/wasm32-wasip1/release/rust-wcgi-starter.wasm"
 abi = "wasi"
 
 [[command]]
