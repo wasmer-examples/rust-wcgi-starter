@@ -3,18 +3,18 @@ published to the Wasmer Registry.
 
 ## Getting Started
 
-First, make sure you have Rust and its `wasm32-wasi` target installed.
+First, make sure you have Rust and its `wasm32-wasip1` target installed.
 
 ```console
-rustup target add wasm32-wasi
+rustup target add wasm32-wasip1
 ```
 
 Now, you can compile the project to WebAssembly.
 
 ```console
-$ cargo build --target=wasm32-wasi --release
+$ cargo build --target=wasm32-wasip1 --release
     Finished release [optimized] target(s) in 0.00s
-$ ls target/wasm32-wasi/release
+$ ls target/wasm32-wasip1/release
 build  deps  examples  incremental  wcgi-rust-template.d  wcgi-rust-template.wasm
 ```
 
